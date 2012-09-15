@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/grid00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/grid01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/grid02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/grid10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/grid11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/grid12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/grid20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/grid21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/grid22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFFFF"
+            android:clickable="true"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</LinearLayout>
